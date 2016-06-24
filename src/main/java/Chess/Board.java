@@ -20,8 +20,8 @@ public class Board {
     }
 
     public boolean isInside(int x, int y) {
-        return !(x < 0 || x >= BOARD_HEIGHT
-                || y < 0 || y >= BOARD_WIDTH);
+        return !(x < 0 || x > BOARD_HEIGHT
+                || y < 0 || y > BOARD_WIDTH);
     }
 
     /**
@@ -32,7 +32,7 @@ public class Board {
     }
 
     public boolean isEmpty(int x, int y) {
-        return isInside(x, y) && cells[x][y] == null;
+        return cells[x][y] == null;
     }
 
 
