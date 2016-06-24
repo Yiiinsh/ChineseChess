@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78e2ca38-bb2d-4d72-88cb-5b20ffd82863" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChineseChess.iml" afterPath="$PROJECT_DIR$/ChineseChess.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Chess/Rules.java" afterPath="$PROJECT_DIR$/src/main/java/Chess/Rules.java" />
     </list>
     <ignored path="ChineseChess.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="Rules.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Chess/Rules.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.1342155">
-              <caret line="175" column="8" selection-start-line="175" selection-start-column="8" selection-end-line="175" selection-end-column="8" />
+            <state vertical-scroll-proportion="-0.105860114">
+              <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="211" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -692,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Chess/Rules.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1342155">
-          <caret line="175" column="8" selection-start-line="175" selection-start-column="8" selection-end-line="175" selection-end-column="8" />
+        <state vertical-scroll-proportion="-0.105860114">
+          <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="211" selection-end-column="63" />
           <folding />
         </state>
       </provider>
