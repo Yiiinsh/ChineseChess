@@ -14,7 +14,7 @@ import java.util.Map;
  */
 public class GameController {
 
-    private Map<String, Piece> initPieces() {
+    public Map<String, Piece> initPieces() {
         Map<String, Piece> pieces = new HashMap<String, Piece>();
         pieces.put("bj0", new Piece("bj0", new int[]{0, 0}));
         pieces.put("bm0", new Piece("bm0", new int[]{0, 1}));
