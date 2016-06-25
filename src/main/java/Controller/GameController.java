@@ -5,6 +5,8 @@ import Algorithm.SearchModel;
 import Chess.Board;
 import Chess.Piece;
 import View.GameView;
+import status.GameStatus;
+import status.Status;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -52,10 +54,11 @@ public class GameController {
         return pieces;
     }
 
-    private Board initBoard() {
+    public Board initBoard() {
         Board board = new Board();
         board.pieces = initPieces();
         for (Map.Entry<String, Piece> stringPieceEntry : initPieces().entrySet()) board.update(stringPieceEntry.getValue());
+        GameStatus.status = Status.READY;
         return board;
     }
 

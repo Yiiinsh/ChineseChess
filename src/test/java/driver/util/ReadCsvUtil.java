@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileReader;
+import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +16,8 @@ public class ReadCsvUtil {
 
     public static List<String[]> readCsv(String filename){
         try{
-            File file = new File(filename);
+            String fstr = ReadCsvUtil.class.getResource("/" + filename).getFile();
+            File file = new File(fstr);
             BufferedReader br = new BufferedReader(
                     new FileReader(file)
             );
