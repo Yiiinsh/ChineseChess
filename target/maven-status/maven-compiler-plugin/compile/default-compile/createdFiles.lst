@@ -1,9 +1,12 @@
 Chess/Piece.class
 Algorithm/SearchModel.class
+status/Status.class
 Algorithm/SearchModel$2.class
 Chess/Rules.class
 Algorithm/EvalModel.class
+status/GameStatus.class
 Algorithm/SearchModel$1.class
+Algorithm/IEvalPosition.class
 View/GameView$PieceOnClickListener.class
 View/GameView$BoardClickListener.class
 Chess/Board.class

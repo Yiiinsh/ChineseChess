@@ -59,41 +59,4 @@ with open('RulesTestCase.csv') as source :
 		writter.writerow((test_version, cnt_all, cnt_success, cnt_fail))
 
 
-# # Plot module
-# import numpy as np
-# import matplotlib.pyplot as plt
-# import matplotlib.mlab as mlab
-# import matplotlib.ticker as ticker
-
-# r = mlab.csv2rec('RulesTestTrend.csv')
-# r.sort()
-
-
-# N = len(r)
-# ind = np.arange(N)  # the evenly spaced plot indices
-# ind1 = np.arange(N+3)
-
-# # Plot
-# fig = plt.figure()
-# ax = fig.add_subplot(111)
-
-# ax.plot(ind1,ind1,'-',color='white')
-
-# ax.plot(ind, r['all'], 'o-',label='All of TCs')
-
-# ax.plot(ind, r['resolved'], 'o-',label='Success TCs')
-
-# ax.plot(ind, r['closed'], 'o-',label='Failed TCs')
-
-# ax.set_title(u"TC Trend")
-
-# ax.legend(loc='upper left')
-
-
-# datadotxy=tuple(zip(ind-0.1,r['all']+0.1))
-# for dotxy in datadotxy:
-#     ax.annotate(str(int(dotxy[1]-0.1)),xy=dotxy)
-
-# plt.show()
-
-# plt.savefig("TCTrend.png")
+# 
