@@ -4,6 +4,8 @@ import Chess.Board;
 import Chess.Piece;
 import Chess.Rules;
 import Controller.GameController;
+import status.GameStatus;
+import status.Status;
 
 import javax.swing.*;
 import java.awt.event.MouseAdapter;
@@ -70,6 +72,7 @@ public class GameView {
             pane.add(lblPiece, 0);
         }
         frame.setVisible(true);
+        GameStatus.status = Status.READY;
     }
 
 
