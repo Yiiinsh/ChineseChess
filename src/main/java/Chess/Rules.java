@@ -100,7 +100,6 @@ public class Rules {
             int[] rMove = new int[]{pos[0], pos[1] + offset};
             if (!board.isInside(rMove)) break;
             boolean e = board.isEmpty(rMove);
-            moves.add(rMove);
             if (!rr) {
                 if (e) moves.add(rMove);
                 else rr = true;
@@ -122,7 +121,6 @@ public class Rules {
                 }
                 break;
             }
-            moves.add(lMove);
         }
         for (int offset : xOffsets) {
             int[] uMove = new int[]{pos[0] - offset, pos[1]};
@@ -135,7 +133,6 @@ public class Rules {
                 if (board.getPiece(uMove).color != player) moves.add(uMove);
                 break;
             }
-            moves.add(uMove);
         }
         for (int offset : xOffsets) {
             int[] dMove = new int[]{pos[0] + offset, pos[1]};
@@ -148,7 +145,6 @@ public class Rules {
                 if (board.getPiece(dMove).color != player) moves.add(dMove);
                 break;
             }
-            moves.add(dMove);
         }
         return moves;
     }
