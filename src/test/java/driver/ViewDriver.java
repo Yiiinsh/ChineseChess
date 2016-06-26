@@ -24,14 +24,14 @@ public class ViewDriver {
         System.out.println("Integration - Game View:");
     }
 
-    @Test
+//    @Test
     public void testInit(){
         for(Board board : TestBoardData.boards){
             view.init(board);
         }
     }
 
-    @Test
+//    @Test
     public void testShowWinner(){
         List<String[]> list = ReadCsvUtil.readCsv("driver_004_003");
         for(String[] strs : list){

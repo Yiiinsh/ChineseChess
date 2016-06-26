@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="Chess.BoardIsInsideTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="driver.ControllerDriver" time="0.01" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib"/>
@@ -16,6 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="**Driver"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/Users/kimmin/git/ChineseChess"/>
     <property name="java.runtime.version" value="1.8.0_77-b03"/>
@@ -44,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=**Driver"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -60,17 +61,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Chess.BoardIsInsideTest" name="testIsInside[0: isEmpty]" time="0"/>
-  <testcase classname="Chess.BoardIsInsideTest" name="testIsInside[1: isEmpty]" time="0"/>
-  <testcase classname="Chess.BoardIsInsideTest" name="testIsInside[2: isEmpty]" time="0"/>
-  <testcase classname="Chess.BoardIsInsideTest" name="testIsInside[3: isEmpty]" time="0"/>
-  <testcase classname="Chess.BoardIsInsideTest" name="testIsInside[4: isEmpty]" time="0"/>
-  <testcase classname="Chess.BoardIsInsideTest" name="testIsInside[5: isEmpty]" time="0"/>
-  <testcase classname="Chess.BoardIsInsideTest" name="testIsInside[6: isEmpty]" time="0"/>
-  <testcase classname="Chess.BoardIsInsideTest" name="testIsInside[7: isEmpty]" time="0"/>
-  <testcase classname="Chess.BoardIsInsideTest" name="testIsInside[8: isEmpty]" time="0"/>
-  <testcase classname="Chess.BoardIsInsideTest" name="testIsInside[9: isEmpty]" time="0"/>
-  <testcase classname="Chess.BoardIsInsideTest" name="testIsInside[10: isEmpty]" time="0.001"/>
-  <testcase classname="Chess.BoardIsInsideTest" name="testIsInside[11: isEmpty]" time="0"/>
-  <testcase classname="Chess.BoardIsInsideTest" name="testIsInside[12: isEmpty]" time="0"/>
+  <testcase classname="driver.ControllerDriver" name="testPlayChess" time="0.01"/>
+  <testcase classname="driver.ControllerDriver" name="testInitBoard" time="0"/>
 </testsuite>

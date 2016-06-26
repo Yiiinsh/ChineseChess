@@ -1,7 +1,10 @@
-Chess/BoardIsEmptyTest.class
 driver/board/TestBoardCase2.class
-driver/board/TestBoardCase1.class
 driver/board/TestBoardCase7.class
+driver/util/ReadCsvUtil.class
+Chess/BoardGetPieceTest.class
+driver/board/TestBoardCase4.class
+Chess/BoardIsEmptyTest.class
+driver/board/TestBoardCase1.class
 driver/EvalModelDriver.class
 Controller/GameControllerTest.class
 driver/board/TestBoardCase6.class
@@ -13,6 +16,3 @@ driver/board/TestBoardCase3.class
 driver/board/TestBoardBase.class
 Chess/BoardIsInsideTest.class
 driver/board/TestBoardData.class
-driver/util/ReadCsvUtil.class
-Chess/BoardGetPieceTest.class
-driver/board/TestBoardCase4.class
