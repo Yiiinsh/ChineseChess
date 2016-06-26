@@ -1,4 +1,5 @@
-import Chess.Board;
+package Chess;
+
 import Controller.GameController;
 import View.GameView;
 

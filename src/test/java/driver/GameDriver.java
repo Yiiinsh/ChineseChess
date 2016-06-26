@@ -1,5 +1,6 @@
 package driver;
 
+import Chess.ChineseChess;
 import org.junit.Test;
 
 /**
@@ -7,14 +8,20 @@ import org.junit.Test;
  */
 public class GameDriver {
 
-    @Test
-    public void testInit(){
+    private ChineseChess chineseChess = new ChineseChess();
 
+//    @Test
+    public void testInit(){
+        chineseChess.init();
     }
 
-    @Test
+//    @Test
     public void testRun(){
-
+        try {
+            chineseChess.run();
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
     }
 
 
